@@ -16,7 +16,7 @@ import SettingsPage from './pages/SettingsPage';
 import DirectMessage from './components/messaging/DirectMessage';
 import MessageCenter from './components/messaging/MessageCenter';
 import LoadingSpinner from './components/LoadingSpinner';
-import LoginPage from './pages/loginpage'; // Import the new LoginPage component
+import LoginPage from './pages/LoginPage'; // Import the new LoginPage component
 
 function App() {
   const { currentUser, isLoading } = useAuth();
